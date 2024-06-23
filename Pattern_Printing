@@ -108,6 +108,19 @@ c c c c c
 d d d d d 
 e e e e e 
 
+public class AlphabetPattern {
+    public static void main(String[] args) {
+        for (char letter = 'a'; letter <= 'e'; letter++) {
+            for (int j = 0; j < 5; j++) {
+                System.out.print(letter + " ");
+            }
+            System.out.println();
+        }
+    }
+}
+
+OR
+
 public class Main {
     public static void main(String[] args) {
         int row, col;
